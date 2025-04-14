@@ -1,10 +1,9 @@
 type SubHeadingProps = {
     subheading: React.ReactNode;
     paragraph?: string;
-    className?: string;
 }
 
-export default function HeadingLine( { subheading, paragraph, className }: SubHeadingProps) {
+export default function HeadingLine( { subheading, paragraph }: SubHeadingProps) {
     return (
         <div>
             <h2 className="text-xl md:text-2xl lg:text-4xl mulish-bold text-black leading-[4rem]">{subheading}</h2>

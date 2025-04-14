@@ -42,7 +42,7 @@ export default function HeroSection () {
             <p className="w-220 lg:w-250 text-center text-zinc-400 mulish-font mt-7 lg:mt-10">We provide to you the best choiches for you. Adjust it to your health needs and make sure your undergo treatment with our highly qualified doctors you can consult with us which type of service is suitable for your health</p>
             <img src="assets/lonjong.svg" alt="lonjong" className="absolute left-0 -z-10 lg:w-270 lg:h-270 lg:pb-30" />
             <img src="assets/five-dots.svg" alt="five-dots" className="absolute right-0 -z-10 lg:pr-70 lg:mr-15 lg:pt-35"/>
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 w-280 max-w-300 h-190 mt-5 pt-10 lg:mt-10 lg:pt-15">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 w-280 max-w-300 h-190 mt-5 pt-10 lg:mt-10 lg:pt-15 mb-20">
                 {services.map((service, index) => (
                     <ServiceCard
                         key={index}
@@ -55,7 +55,7 @@ export default function HeroSection () {
                 ))}
             </div>
             <div className="pt-15">
-                <Button onClick = {() => void 0} className="bg-white text-blue-500 border border-blue-500 mulish-font hover:bg-blue-500 hover:text-white">Learn more</Button>
+                <Button onClick = {() => void 0} className="bg-white text-blue-500 border border-blue-500 mulish-font hover:bg-blue-500 hover:text-white mb-10">Learn more</Button>
             </div>
         </section>
     );

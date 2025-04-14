@@ -9,7 +9,7 @@ type ServiceCardProps = {
 
 export default function ServiceCard ({ icon, title, description, linkText, className, imgClassName}: ServiceCardProps) {
     return (
-        <div className={`relative rounded-xl shadow-md p-6 hover:shadow-lg transition ${className}`}>
+        <div className={`relative rounded-xl shadow-xl p-6 hover:shadow-lg transition ${className}`}>
             <img src={icon} alt={title} className={`${imgClassName}`} />
             <h3 className="text-lg lg:text-2xl text-black mulish-bold mb-4">{title}</h3>
             <p className="text-4sm lg:text-lg text-zinc-400 mulish-font">{description}</p>
