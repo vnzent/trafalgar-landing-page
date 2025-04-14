@@ -4,7 +4,7 @@ import SubHeading from './SubHeading';
 export default function MobileAppsSection() {
     return (
         <section className="flex md:flex-row items-center justify-between container mt-15 mx-auto">
-            <div className="ml-15 pl-30">
+            <div className="ml-10 pl-30">
                 <SubHeading 
                     subheading = { 
                     <>
@@ -18,7 +18,7 @@ export default function MobileAppsSection() {
                 </svg>
                 </Button>
             </div>
-            <img src="assets/trafalgar-illustration-2.svg" alt="trafalgar-2" className="w-190 h-200 mr-20" />
+            <img src="assets/trafalgar-illustration-2.svg" alt="trafalgar-2" className="w-150 h-180 mr-20" />
         </section>
     );
 }

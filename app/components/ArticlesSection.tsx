@@ -23,9 +23,9 @@ export default function ArticlesSection() {
     return (
         <section className="flex flex-col items-center justify-center mt-10">
         <h2 className="text-2xl lg:text-3xl text-black mulish-bold">Check out our latest article</h2>
-        <div className="w-10 h-0.5 lg:w-15 lg:h-0.5 bg-black mt-7 lg:mt-10"></div>
-        <img src="assets/lonjong-kanan.svg" alt="lonjong-kanan" className="absolute right-0 -z-10 lg:w-200 lg:h-200" />
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-12 w-300 max-w-400 h-152 max-h-200 mt-10 pt-15">
+        <div className="w-10 h-0.5 lg:w-15 lg:h-0.5 bg-black mt-7 mt-10"></div>
+        <img src="assets/lonjong-kanan.svg" alt="lonjong-kanan" className="absolute right-0 -z-10 w-150 h-150 mb-20" />
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-12 w-280 max-w-400 h-130 max-h-200 mt-10 pt-15">
           {articles.map((article, index) => (
             <ServiceCard
               key={index}
@@ -38,7 +38,7 @@ export default function ArticlesSection() {
             />
           ))}
         </div>
-        <Button onClick = {() => void 0} className="bg-white text-blue-500 border border-blue-500 mulish-bold hover:bg-blue-500 hover:text-white mt-20">View all</Button>
+        <Button onClick = {() => void 0} className="bg-white text-blue-500 border border-blue-500 mulish-bold hover:bg-blue-500 hover:text-white mt-40">View all</Button>
       </section>
     );
 }

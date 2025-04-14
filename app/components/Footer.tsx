@@ -2,11 +2,9 @@ import Logo from "./Logo";
 
 export default function Footer() {
     return (
-        <footer className="bg-gradient-to-r from-sky-400 to-blue-400 text-white px-8 py-12 lg:px-70 mt-30 h-full">
+        <footer className="bg-gradient-to-r from-sky-400 to-blue-400 text-white px-8 py-12 px-35 mt-30 h-full">
             <div className="grid grid-cols-1 md:grid-cols-4 mulish-font text-sm mt-10">
-
-                {/* Kolom Logo + Deskripsi */}
-                <div className="md:col-span-1 w-77">
+                <div className="md:col-span-1 w-77 ml-15">
                     <div className="mb-4">
                         <Logo 
                             className="flex items-center gap-3"
@@ -18,7 +16,7 @@ export default function Footer() {
                     <p className="mt-6 text-white opacity-70 text-sm">©Trafalgar PTY LTD 2020. All rights reserved</p>
                 </div>
    
-                <div className="ml-20 pl-40">
+                <div className="ml-10 pl-40">
                     <h3 className="mulish-bold text-lg mb-4">Company</h3>
                     <ul className="space-y-2 opacity-80">
                         <li><a href="#">About</a></li>
@@ -28,7 +26,7 @@ export default function Footer() {
                     </ul>
                 </div>
 
-                <div className="ml-20 pl-20">
+                <div className="ml-10 pl-30">
                     <h3 className="mulish-bold text-lg mb-4">Region</h3>
                     <ul className="space-y-2 opacity-80">
                         <li><a href="#">Indonesia</a></li>
@@ -38,7 +36,7 @@ export default function Footer() {
                     </ul>
                 </div>
 
-                <div className="ml-10 pl-10">
+                <div className="ml-10 pl-20">
                     <h3 className="mulish-bold text-lg mb-4">Help</h3>
                     <ul className="space-y-2 opacity-80">
                         <li><a href="#">Help center</a></li>
