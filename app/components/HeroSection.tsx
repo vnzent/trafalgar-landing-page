@@ -1,5 +1,6 @@
 import ServiceCard from "./ServiceCard";
 import Button from "./Button";
+import SubHeading from "./SubHeading";
 
 export default function HeroSection () {
     const services = [
@@ -46,8 +47,10 @@ export default function HeroSection () {
                     <ServiceCard
                         key={index}
                         icon={service.icon}
+                        imgClassName="mt-5 mb-6 pr-7 w-20 h-15 lg:w-25 lg:h-20"
                         title={service.title}
                         description={service.description}
+                        className="bg-white"
                     />
                 ))}
             </div>
